@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; background: #f0f2f5; margin: 0; }
+.login-container, .register-container, .chat-container {
+  width: 350px; margin: 60px auto; background: #fff; padding: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+input, button { width: 100%; margin: 8px 0; padding: 10px; border-radius: 4px; border: 1px solid #ccc; }
+button { background: #25d366; color: #fff; border: none; font-weight: bold; cursor: pointer; }
+button:hover { background: #128c7e; }
+.error { color: #d32f2f; margin-bottom: 10px; }
+.messages { min-height: 200px; background: #e5ddd5; padding: 10px; border-radius: 4px; margin-bottom: 10px; overflow-y: auto; }
+.my-message { text-align: right; color: #075e54; }
+.other-message { text-align: left; color: #262626; }
